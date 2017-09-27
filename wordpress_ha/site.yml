@@ -1,8 +1,0 @@
----
-- name: install apache, php, wordpress
-  hosts: tag_class_wordpress_ha
-  sudo: yes
-
-  roles:
-    - web
-    - wordpress
