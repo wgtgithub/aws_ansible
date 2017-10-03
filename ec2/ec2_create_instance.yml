@@ -3,7 +3,7 @@
   connection: local
   gather_facts: False
   vars_files:
-    - ec2/ec2_var.yml
+    - ec2_var.yml
   tasks:
     - name: Create ec2 instances.
       ec2: >
