@@ -1,6 +1,5 @@
 [local]
-#localhost
-#52.14.104.208
+localhost
 
 [webservers]
 grmpf-y01
